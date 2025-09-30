@@ -131,3 +131,23 @@
   }
   
 }
+/* For Webkit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 15px; /* width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+   /* background of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: white; /* color of the thumb */
+  border-radius: 5px; /* round edges */
+  border: 5px solid #111; /* optional: border around thumb */
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin; /* "auto" or "thin" */
+  scrollbar-color: white #111; /* thumb color, track color */
+}
