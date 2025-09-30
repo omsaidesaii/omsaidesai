@@ -64,7 +64,7 @@ const Services = () => {
             </div>
 
             {/* Right side */}
-            <div className="flex items-center">
+            <div className="flex items-center mb-10">
               <p className="text-lg lg:text-xl leading-relaxed">
                   Developing scalable server-side applications and REST APIs with Node.js and Express. Experienced in authentication, data handling, and database integration to ensure smooth performance and functionality.
               </p>
