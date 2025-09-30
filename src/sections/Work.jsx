@@ -35,7 +35,7 @@ const Work = () => {
 
   return (
     <>
-      <div ref={workRef} className="min-h-screen bg-white text-black py-15 lg:py-20 overflow-hidden">
+      <div ref={workRef} className="min-h-screen bg-white text-black py-10 lg:py-20 overflow-hidden">
         
         {/* Title Wrapper */}
         <div className='main-container pb-8 lg:pb-12 flex max-md:flex-col gap-6 justify-between items-start md:items-end'>
