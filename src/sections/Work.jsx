@@ -43,7 +43,7 @@ const Work = () => {
             <h3 className='mb-3'>My Projects</h3>
             <p className='text-lg lg:text-xl'>Learning by building—here’s a glimpse of the projects I’ve created.</p>
           </div>
-          <GradientButton text="Explore All" link="https://github.com/omsaidesaii?tab=repositories" className="btn-light" />
+          <GradientButton text="Explore All" link="/projects" className="btn-light" />
         </div>
         <div ref={projectsRef}>
           {/* Projects */}
@@ -52,13 +52,13 @@ const Work = () => {
               <a
                 key={id}
                 href={link}
-                className="relative rounded-2xl w-full min-w-[340px] lg:min-w-xl h-72 lg:h-96 block overflow-hidden group"
+                className="relative rounded-2xl flex-shrink-0 w-[340px] lg:w-[400px] h-72 lg:h-96 block overflow-hidden group"
               >
                 {/* Project Image */}
                 <img
                   src={image}
                   alt={name}
-                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                  className="w-full h-full object-contain transition-transform duration-300 group-hover:scale-105 bg-white"
                 />
 
                 {/* Project Name */}

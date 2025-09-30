@@ -1,27 +1,33 @@
+import landing from "../assets/images/landing-page.png"
+import ecommerce from "../assets/images/ecommerce.png"
+import portfolio from "../assets/images/portfolio.png"
+import resume from "../assets/images/resume-analyzer.png"
+
+
 const projects = [
   {
     id: 1,
-    name: "Landing Page",
-    image: "https://img.freepik.com/premium-vector/landing-page-template_440410-494.jpg",
-    link: "/project-one"
+    name: "Portfolio",
+    image: portfolio,
+    link: "https://omsaidesai-11os.vercel.app/"
   },
   {
     id: 2,
-    name: "Ecommerce Website",
-    image: "https://img.freepik.com/premium-psd/flat-design-e-commerce-landing-page-template_23-2151219755.jpg",
-    link: "/project-two"
+    name: "Landing Page",
+    image: landing,
+    link: "https://golf-website-sand.vercel.app/"
   },
   {
     id: 3,
-    name: "Mobile App UI",
-    image: "https://img.freepik.com/free-vector/travel-booking-app-with-airplane-reservation_23-2148626981.jpg",
-    link: "/project-three"
+    name: "Resume Analyzer",
+    image: resume,
+    link: "https://resuscan-kohl.vercel.app/"
   },
   {
     id: 4,
-    name: "Brand Identity",
-    image: "https://img.freepik.com/premium-vector/clean-professional-corporate-brand-identity-mockup-stationery-set_616632-4755.jpg",
-    link: "/project-four"
+    name: "ECommerce Website",
+    image: ecommerce,
+    link: "https://voltcart.vercel.app/"
   }
 ];
 
