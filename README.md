@@ -62,7 +62,7 @@ Built with ❤️ by **Omsai Kushkumar Desai**
 
 ## 📌 Live Demo
 
-[omsaidesai-11os.vercel.app]  
+[Demo](omsaidesai-11os.vercel.app)  
 
 ---
 
